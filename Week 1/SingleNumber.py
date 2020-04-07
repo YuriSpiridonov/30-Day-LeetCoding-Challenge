@@ -9,7 +9,8 @@ Task 1:
 class Solution:
     #def singleNumber(self, nums: List[int]) -> int:
     def singleNumber(nums):    
-        for num in nums:
+        nums_set = set(nums)
+        for num in nums_set:
             if nums.count(num) == 1:
                 return num
 
