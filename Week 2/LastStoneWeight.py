@@ -21,17 +21,21 @@ Task 12:
     we combine 1 and 1 to get 0 so the array converts to [1] then that's the value of last stone.
 """
 #70 / 70 test cases passed.
-#Runtime: 28 ms
-#Memory Usage: 13.8 MB    
+#Runtime: 20 ms
+#Memory Usage: 13.8 MB
+
+#Runtime: 20 ms, faster than 98.66% of Python3 online submissions for 
+#Last Stone Weight.
+#Memory Usage: 13.8 MB, less than 100.00% of Python3 online submissions for 
+#Last Stone Weight.
 
 class Solution:
-    #def lastStoneWeight(self, stones: List[int]) -> int:
+   #def lastStoneWeight(self, stones: List[int]) -> int:
     def lastStoneWeight(stones):
         while len(stones) > 1:
             x, y  = stones.pop(stones.index(max(stones))), stones.pop(stones.index(max(stones)))
             if x != y: stones.append(abs(y-x))
-            if not stones: return 0
-        return stones[0]
+        return stones[0] if stones else 0
 
 #Tests        
 stones = [9] # 9
