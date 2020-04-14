@@ -20,16 +20,17 @@ Task 14:
     [1,3] means shift to right by 3. "abcdefg" -> "efgabcd"
 """
 #31 / 31 test cases passed.
-#Runtime: 36 ms
+#Runtime: 32 ms
 #Memory Usage: 14 MB
 
 class Solution:
     #def stringShift(self, s: str, shift: List[List[int]]) -> str:
     def stringShift(s, shift):
+        total = 0 
         for shifter in shift:
-            if shifter[0] == 0: s = s[shifter[1]:]+s[:shifter[1]]
-            else: s = s[-shifter[1]:]+s[:-shifter[1]]
-        return s
+            if shifter[0] == 0: total+=shifter[1] 
+            else: total-=shifter[1]
+        return s[total%len(s):]+s[:total%len(s)]
     
 #Tests
 s = "abcdefg"
