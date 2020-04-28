@@ -26,28 +26,25 @@ Task 28:
     firstUnique.showFirstUnique(); // return -1     
 """
 #17 / 17 test cases passed.
-#Runtime: 1512 ms
-#Memory Usage: 54.6 MB
+#Runtime: 1176 ms
+#Memory Usage: 62 MB
 
+from collections import OrderedDict
 class FirstUnique:
 
     def __init__(self, nums: List[int]):
-        self.d = dict()
         self.queue = list()
+        self.od = OrderedDict()
         for num in nums:
             self.add(num)
 
     def showFirstUnique(self) -> int:
-        while len(self.queue) > 0 and self.d[self.queue[0]] > 1:
-            self.queue.pop(0)
-        if len(self.queue) == 0:
-            return -1
-        else:
-            return self.queue[0]
+        for unique in self.queue:
+            if self.od[unique] == 1: return unique
+        return -1
 
     def add(self, value: int) -> None:
-        if value in self.d.keys():
-            self.d[value] += 1
+        if value in self.od: self.od[value] += 1
         else: 
-            self.d[value] = 1
+            self.od[value] = 1
             self.queue.append(value)
