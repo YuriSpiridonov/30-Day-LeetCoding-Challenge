@@ -25,24 +25,29 @@ Task 28:
     firstUnique.add(3);            // the queue is now [2,3,5,5,2,3]
     firstUnique.showFirstUnique(); // return -1     
 """
-#Time Limit Exceeded
+#17 / 17 test cases passed.
+#Runtime: 1512 ms
+#Memory Usage: 54.6 MB
 
-from collections import OrderedDict
 class FirstUnique:
 
     def __init__(self, nums: List[int]):
-        self.nums = nums
-        self.od = OrderedDict()
-        for num in self.nums:
-            self.od[num] = self.nums.count(num)
+        self.d = dict()
+        self.queue = list()
+        for num in nums:
+            self.add(num)
 
     def showFirstUnique(self) -> int:
-        for value, count in self.od.items():
-            if count == 1: return value
-        return -1
+        while len(self.queue) > 0 and self.d[self.queue[0]] > 1:
+            self.queue.pop(0)
+        if len(self.queue) == 0:
+            return -1
+        else:
+            return self.queue[0]
 
     def add(self, value: int) -> None:
-        if value in self.nums:
-            self.od[value] += 1
-        else: self.od[value] = 1
-        self.nums.append(value)
+        if value in self.d.keys():
+            self.d[value] += 1
+        else: 
+            self.d[value] = 1
+            self.queue.append(value)
