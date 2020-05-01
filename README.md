@@ -2,7 +2,7 @@
 
 Some problems were challenging so I googled not only theory but also solutions approaches to solve them.
 
-## week1
+## Week 1
 |№|Title|Solution|Difficulty|
 | ----: | --- | --- | --- |
 |136.|[Single Number](https://leetcode.com/problems/single-number/)|[Python3](https://github.com/YuriSpiridonov/30-Day-LeetCoding-Challenge/blob/master/Week%201/SingleNumber.py)|Easy|
@@ -13,7 +13,7 @@ Some problems were challenging so I googled not only theory but also solutions a
 |49.|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Python](https://github.com/YuriSpiridonov/30-Day-LeetCoding-Challenge/blob/master/Week%201/GroupAnagrams.py)|Medium|
 |n/a.|[Counting Elements](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/528/week-1/3289/)|[Python](https://github.com/YuriSpiridonov/30-Day-LeetCoding-Challenge/blob/master/Week%201/CountingElements.py)|n/a|
 
-## week2
+## Week 2
 |№|Title|Solution|Difficulty|
 | ----: | --- | --- | --- |
 |876.|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Python](https://github.com/YuriSpiridonov/30-Day-LeetCoding-Challenge/blob/master/Week%202/MiddleoftheLinkedList.py)|Easy|
@@ -24,7 +24,7 @@ Some problems were challenging so I googled not only theory but also solutions a
 |525.|[Contiguous Array](https://leetcode.com/problems/contiguous-array/)|[Python](https://github.com/YuriSpiridonov/30-Day-LeetCoding-Challenge/blob/master/Week%202/ContiguousArray.py)|Medium|
 |n/a.|[Perform String Shifts](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/3299/)|[Python](https://github.com/YuriSpiridonov/30-Day-LeetCoding-Challenge/blob/master/Week%202/PerformStringShifts.py)|n/a|
 
-## week3
+## Week 3
 |№|Title|Solution|Difficulty|
 | ---: | --- | --- | --- |
 |238.|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[Python](https://github.com/YuriSpiridonov/30-Day-LeetCoding-Challenge/blob/master/Week%203/ProductofArrayExceptSelf.py)|Medium|
@@ -35,7 +35,7 @@ Some problems were challenging so I googled not only theory but also solutions a
 |1008.|[Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)|~~Python~~|Medium|
 |n/a.|[Leftmost Column with at Least a One](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/530/week-3/3306/)|[Python](https://github.com/YuriSpiridonov/30-Day-LeetCoding-Challenge/blob/master/Week%203/LeftmostColumnwithatLeastaOne.py)|n/a|
 
-## week4
+## Week 4
 |№|Title|Solution|Difficulty|
 | ---: | --- | --- | --- |
 |560.|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k)|[Python](https://github.com/YuriSpiridonov/30-Day-LeetCoding-Challenge/blob/master/Week%204/SubarraySumEqualsK.py)|Medium|
@@ -46,7 +46,7 @@ Some problems were challenging so I googled not only theory but also solutions a
 |221.|[Maximal Square](https://leetcode.com/problems/maximal-square)|[Python](https://github.com/YuriSpiridonov/30-Day-LeetCoding-Challenge/blob/master/Week%204/MaximalSquare.py)|Medium|
 |n/a.|[First Unique Number](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/531/week-4/3313/)|[Python](https://github.com/YuriSpiridonov/30-Day-LeetCoding-Challenge/blob/master/Week%204/FirstUniqueNumber.py)|n/a|
 
-## week5
+## Week 5
 |№|Title|Solution|Difficulty|
 | ---: | --- | --- | --- |
 |124.|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum)|[Python](https://github.com/YuriSpiridonov/30-Day-LeetCoding-Challenge/blob/master/Week%205/BinaryTreeMaximumPathSum.py)|Hard|
